@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>add snacks</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<ion-item>
+  <ion-grid>
+    
+     
+
+    <ion-item>
+      <ion-label position="floating">Name</ion-label>
+      <ion-input type="text" [(ngModel)]="title"></ion-input>
+    </ion-item>
+
+    <ion-item>
+        <ion-label position="floating">id</ion-label>
+        <ion-input type="text" [(ngModel)]="id"></ion-input>
+      </ion-item>
+
+      <ion-item>
+          <ion-label position="floating">URL</ion-label>
+          <ion-input type="text" [(ngModel)]="imageUrl"></ion-input>
+        </ion-item>
+
+        <ion-item>
+            <ion-label position="floating">Flavours</ion-label>
+            <ion-input type="text" [(ngModel)]="snacknames"></ion-input>
+          </ion-item>
+
+          <ion-button (click)="Addsnacks()">
+            <ion-label>Submit</ion-label>
+          </ion-button>
+
+
+  </ion-grid>
+</ion-item>
+
+</ion-content>
