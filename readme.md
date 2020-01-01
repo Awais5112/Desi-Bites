@@ -8,7 +8,7 @@
 
 <img src="madproject2.PNG" width="752">
 
-<h3>3. Detail of Selected of Food item.</h3>
+<h3>3. Add new food Item.</h3>
 
 <img src="Madproject3.PNG" width="752">
 <img src="Madproject4.PNG" width="752">
